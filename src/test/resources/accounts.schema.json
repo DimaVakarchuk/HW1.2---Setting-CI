@@ -18,7 +18,7 @@
       },
       "name": {
         "type": "string",
-        "minLength": 25
+        "minLength": 3
       },
       "number": {
         "type": "string",
@@ -30,7 +30,7 @@
       },
       "currency": {
         "type": "string",
-        "enum": ["RUR", "USD"]
+        "enum": ["RUB", "USD"]
       }
     }
   }
